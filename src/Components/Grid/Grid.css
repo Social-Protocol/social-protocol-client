@@ -1,0 +1,11 @@
+.grid-container {
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;;
+    grid-template-rows: auto; /* to try - grid auto rows*/
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; 
+
+}
+
+/* To make grid responsive */

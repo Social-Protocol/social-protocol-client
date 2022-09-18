@@ -1,15 +1,14 @@
-import logo from './logo.svg';
+import HeaderBar from './Components/HeaderBar/HeaderBar.js'
+import Grid from './Components/Grid/Grid.js'
+import UserBar from './Components/UserBar/UserBar.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Social Protocol
-        </p>
-      </header>
+      <HeaderBar />
+      <UserBar/>
+      <Grid/>
     </div>
   );
 }

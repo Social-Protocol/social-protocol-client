@@ -1,0 +1,22 @@
+.user-bar-container {
+    height: 100px;
+    background-color: grey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.user-image {
+    height: 80px;
+    background-color: black;
+    border-radius: 20px;
+    flex-basis: 80px;
+}
+
+.user-info {
+    border: 1px solid black;
+    flex-basis: 400px;
+    flex-grow: 1;
+
+}
