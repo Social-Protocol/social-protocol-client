@@ -62,7 +62,11 @@ const HeaderBar = () => {
   let connectBtn;
 
   if (name) {
-    connectBtn = <Chip label={name} variant="outlined" />;
+    connectBtn = (
+      <Link to="/profile" style={{textDecoration: "none"}}>
+        <Chip label={name} style={{ color: "white", cursor: "pointer"}} variant="outlined" />
+      </Link>
+    );
   } else {
     connectBtn = (
       <Button
