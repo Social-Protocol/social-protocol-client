@@ -19,6 +19,26 @@ export default function ProfileInfo(props) {
             label="Name"
             defaultValue="Flaviu Cicio"
           />
+          <br/><br/>
+          <TextField
+            id="outlined"
+            label="Studies"
+            defaultValue=""
+          />
+          <br/><br/>
+          <TextField
+            id="outlined"
+            label="Email"
+            defaultValue=""
+          />
+          <br/><br/>
+          <TextField
+            id="outlined"
+            label="Phone"
+            defaultValue=""
+          />
+          <br/><br/>
+          <Button variant="contained">SAVE</Button>
         </Box>
       )}
     </div>

@@ -26,7 +26,7 @@ export default function ProfileSkills(props) {
           <List sx={{ pt: 0 }}>
             <ListItem sx={{ pt: 0 }}>
               <ListItemButton>
-                <ListItemText primary="Programming" />
+                <ListItemText primary="Programming"/>
                 <Chip label="109" />
               </ListItemButton>
             </ListItem>
